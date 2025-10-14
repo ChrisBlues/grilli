@@ -1,3 +1,9 @@
+> Ce dépôt est une recomposition.  
+> Après les vents contraires, voici le calme retrouvé.  
+> Chaque fichier ici respire la clarté, la patience et la joie de créer.
+
+=============================================================================================================================
+
 # Grilli
 
 Grilli est un projet HTML/CSS3 réalisé à partir du tutoriel exceptionnel de [Codewithsadee](https://github.com/codewithsadee).  
@@ -23,7 +29,7 @@ Ce template de restaurant se distingue par son graphisme époustouflant, ses ani
 
 ---
 
-
+===============================================================================================================================
 
 
 
