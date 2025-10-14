@@ -164,6 +164,19 @@ window.addEventListener("mousemove", function (event) {
         x = x * Number(parallaxItems[i].dataset.parallaxSpeed);
         y = y * Number(parallaxItems[i].dataset.parallaxSpeed);
         parallaxItems[i].style.transform = `translate3d(${x}px, ${y}px, 0px)`;
-  }
+    }
 
-    });
+});
+
+// Détection du bas de page pour les remerciements au concepteur
+window.addEventListener('scroll', () => {
+  const scrollPosition = window.scrollY + window.innerHeight;
+  const pageHeight = document.body.offsetHeight;
+  const footer = document.getElementById('thank-you-footer');
+
+  if (scrollPosition >= pageHeight - 50) {
+    footer.classList.add('visible');
+  } else {
+    footer.classList.remove('visible');
+  }
+});
